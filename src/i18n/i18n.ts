@@ -17,9 +17,9 @@ export const defaultNS = 'translation'
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: 'vi', //default
+  lng: 'en', //default
   ns: ['translation'],
-  fallbackLng: 'vi', //trong truong hop khong xac dinh duoc ngon ngu,
+  fallbackLng: 'en', //trong truong hop khong xac dinh duoc ngon ngu,
   interpolation: {
     escapeValue: false // react already safes from xss
   },
