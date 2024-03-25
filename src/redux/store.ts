@@ -4,7 +4,7 @@ import userReducer from './reducers/userSlice'
 
 export const store = configureStore({
   reducer: {
-    userReducer: userReducer
+    users: userReducer,
   }
 })
 export type IAppDispatch = typeof store.dispatch
